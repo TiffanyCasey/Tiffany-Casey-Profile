@@ -1,4 +1,5 @@
-$(function() {
+$(document).ready(function() {
+  console.log("ready!");
 
   $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
     preventSubmit: true,
